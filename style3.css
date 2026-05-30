@@ -56,7 +56,7 @@ body {
     width: 100px;
     height: 100px;
     margin: 6px;
-
+    animation: pisca 2.5s infinite;
 }
 
 .material-symbols-outlined {
@@ -158,6 +158,12 @@ footer {
 
 footer p {
     color: white;
+}
+
+@keyframes pisca {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 @media (max-width: 700px){

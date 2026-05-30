@@ -56,10 +56,17 @@ body {
 }
 
 
+.logo button {
+    background-color: rgb(229, 189, 55, 1);
+    border: none;
+    
+}
+
 .logo img {
     width: 100px;
     height: 100px;
     margin: 6px;
+    animation: pisca 2.5s infinite;
 }
 
 .nome-logo h1 {
@@ -171,6 +178,13 @@ footer {
 
 footer p {
     color: white;
+}
+
+
+@keyframes pisca {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
 }
 @media (max-width: 700px){
     *{
