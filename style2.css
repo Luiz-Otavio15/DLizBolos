@@ -98,15 +98,7 @@ body {
     margin-bottom: 15px;
 }
 
-button {
-    outline: none;
-    border: none;
-    transition: 0.8s;
-}
 
-button:hover {
-    background-color: rgb(214, 214, 214);
-}
 
 
 .cardBase{
@@ -125,23 +117,29 @@ button:hover {
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
 
+    outline: none;
+    border: none;
+
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.850);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.850);;
-    transition: 0.8s;
+    transition: 0.5s;
 }
 
+
+.material-symbols-outlined {
+    margin-bottom: 7px;
+}
 .card:hover {
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(202, 202, 202);
     
 }
 .card img {
     
     margin:10px;
     margin-top: 15px;
-    border-radius: 8px;
     width: 180px;
     height: 180px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .card h2 {

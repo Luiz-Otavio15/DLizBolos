@@ -7,42 +7,42 @@ let bolos = [
     {
         "nome": "Nata",
         "imagem": "img/nata.webp",
-        "link": "TelaDetalheMilho.html",
+        "link": "TelaDetalheNata.html",
     },
     {
         "nome": "Goiabada",
         "imagem": "img/goiabada.webp",
-        "link": "TelaDetalheMilho.html",
+        "link": "TelaDetalheGoiabada.html",
     },
     {
         "nome": "Comum",
-        "imagem": "img/comum.jpg",
-        "link": "TelaDetalheMilho.html",
+        "imagem": "img/comum.webp",
+        "link": "TelaDetalheComum.html",
     },
     {
         "nome": "Formigueiro",
-        "imagem": "img/formigueiro.webp",
-        "link": "TelaDetalheMilho.html",
+        "imagem": "img/formigueiro-removebg-preview.png",
+        "link": "TelaDetalheFormigueiro.html",
     },
     {
         "nome": "Cenoura",
         "imagem": "img/cenoura.webp",
-        "link": "TelaDetalheMilho.html",
+        "link": "TelaDetalheCenoura.html",
     },
     {
         "nome": "Leite",
         "imagem": "img/leite.jpg",
-        "link": "TelaDetalheMilho.html",
+        "link": "TelaDetalheLeite.html",
     },
     {
         "nome": "Mesclado",
         "imagem": "img/mesclado.jpg",
-        "link": "TelaDetalheMilho.html",
+        "link": "TelaDetalheMesclado.html",
     },
     {
         "nome": "Chocolate",
         "imagem": "img/chocolate.webp",
-        "link": "TelaDetalheMilho.html",
+        "link": "TelaDetalheChocolate.html",
     },
 ]
 
@@ -52,8 +52,8 @@ bolos.map((bolo)=> {
     let cardBolo = document.getElementById("cardbase");
     cardBolo.innerHTML += `
         
-        <form action="${bolo.link}" class="card">
-            <button>
+        <form action="${bolo.link}">
+            <button class="card">
                 <img src="${bolo.imagem}" alt="">
                 <h2>${bolo.nome}</h2>
             </button>                

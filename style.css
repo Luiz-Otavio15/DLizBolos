@@ -55,6 +55,9 @@ body {
     height: auto;
 }
 
+.material-symbols-outlined {
+    margin-bottom: 7px;
+}
 
 .logo img {
     width: 100px;
