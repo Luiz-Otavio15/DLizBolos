@@ -219,10 +219,7 @@ footer p {
         margin-bottom: 2px;
     }
 
-    .cardBase {
-        gap: 10px;
-        margin: 40px 20px;
-    }
+
     .card{
         width: 300px;
         height: auto;
