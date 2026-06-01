@@ -211,11 +211,12 @@ footer p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 15px;
+        gap: 5px;
     }
 
     .menu a{
         font-size: 18px;
+        margin-bottom: 2px;
     }
 
     .cardBase {
@@ -224,6 +225,7 @@ footer p {
     }
     .card{
         width: 300px;
+        height: auto;
         flex-direction:column;
         text-align:center;
         
